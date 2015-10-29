@@ -5,6 +5,13 @@
             $('.kmt-search-site').toggle(300);
         });
 
+        $('.ip-pif-label1').click(function(){
+            $('.ip-pif-box').hide(150);
+        });
+        $('.ip-pif-label2').click(function(){
+            $('.ip-pif-box').show(150);
+        });
+
         var newSwiper = new Swiper('.kmt-news-swiper', {
             slidesPerView: 'auto',
             spaceBetween: 60,
